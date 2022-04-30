@@ -243,9 +243,10 @@ img {
     .y-div {
         display: none;
     }
-    .vert-div {
-        display: none;
-    }
+   .vert-div {
+       margin-top: 48px;
+       margin-left: -110px;
+   }
    
     .o-div {
         margin-right: -64px;
