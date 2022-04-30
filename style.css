@@ -268,3 +268,12 @@ img {
     height: 150px;
 }
 }
+
+@media all and (max-width:500px) {
+.footer {
+
+    position: relative;
+
+}
+
+}
