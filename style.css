@@ -170,12 +170,7 @@ img {
     height: 75%;
     
 }
-@media all and (max-width:600px) {
-    .footer {
-        position: absolute;
-    }
-    
-    }
+
 
 @media all and (max-width:991px) {
     body {
