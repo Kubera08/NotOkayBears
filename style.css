@@ -147,7 +147,7 @@ img {
 .footer {
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
     height:200px;
     bottom: 0;
     width: 100%;
@@ -176,7 +176,7 @@ img {
     }
     
     }
-    
+
 @media all and (max-width:991px) {
     body {
         overflow: auto;
