@@ -156,13 +156,14 @@ img {
 /* FOOTER */
 
 .footer {
+
     display: flex;
     justify-content: space-between;
     position: relative;
     height:200px;
     bottom: 0;
     width: 100%;
-    padding: 0px 0px 25px 25px;
+    padding: 0px 0px 55px 25px;
 }
 .footer-text {
     color: #fff;
