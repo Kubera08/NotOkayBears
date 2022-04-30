@@ -126,13 +126,15 @@ img {
     height: 919px;
     margin-top: -40px;
 }
+
 .container div img {
     opacity: 0.5;
 }
 .container div img:hover {
     opacity: 1;
-    transition: 1s;
+    transition: 0.5s;
 }
+
 .k-div {
     margin-right: -85px;
     height: 650px;
@@ -181,7 +183,7 @@ img {
 }
 
 
-@media all and (max-width:991px) {
+@media all and (max-width:800px) {
    
     .header {
         background: transparent;
@@ -276,5 +278,8 @@ img {
 }
 .logo img {
     height: 150px;
+}
+.footer {
+    position: absolute;
 }
 }
