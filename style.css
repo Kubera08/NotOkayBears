@@ -180,7 +180,7 @@ img {
     
 }
 
-@media screen and (max-width: 47.9999em) {
+@media screen and (max-width: 600px) {
     
     .footer {
         position: absolute;
@@ -188,7 +188,7 @@ img {
 
 }
 
-@media all and (min-width:48em) {
+@media all and (min-width:601px) {
    
     .header {
         background: transparent;
