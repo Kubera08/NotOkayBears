@@ -36,10 +36,24 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+.nav-lab {
 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 .toggle {
     display: none;
 
+}
+.menu-lab li {
+    background-color: #86a9758e;
+    border-radius: 3px;
+    padding: 9px 15px;
+    text-align: center;
+    
 }
 .menu {
     display: flex;
@@ -50,6 +64,16 @@ nav {
     padding-right: 30px;
     padding-top: 20px;
 }
+.menu-lab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 650px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
 
 .menu li {
     background-color: #4d534a8e;
@@ -58,6 +82,14 @@ nav {
     text-align: center;
 
 
+}
+
+.menu-lab li {
+    background-color: #05c2c98e;
+    border-radius: 3px;
+    padding: 9px 15px;
+    text-align: center;
+    
 }
 
 .menu li:hover {
@@ -77,7 +109,17 @@ nav {
     text-transform: uppercase;
     
 }
-
+.menu-lab li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 140%;
+    font-weight: 500;
+    letter-spacing: 0.145rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
 .logo {
     padding-top: 25px;
     display: flex;
@@ -92,6 +134,7 @@ nav {
 .menu1 li {
     margin:10px
 }
+
 .menu2 {
     display: flex;
 }
@@ -186,6 +229,13 @@ img {
     transform: scale(1.1);
     transition: 0.3s;
 }
+.lab-center {
+    height: 100vh;
+    background-position: center;
+    background: url(img/3026.jpg);
+    background-size: cover;
+
+}
 
 
 @media all and (max-width:991px) {
@@ -248,6 +298,32 @@ img {
     .menu li img {
         height: 35px;
     }
+    .menu-lab {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #2c312f;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-around;
+        transform: translateX(-100%);
+    }
+    .open .menu-lab {
+        transform: translateX(0);
+        transition: transform 1s;
+
+    }
+    .menu-lab li {
+        border-radius: 3px;
+    }
+    .menu-lab li a {
+        font-size: 2rem;
+    }
+    .menu-lab li img {
+        height: 35px;
+    }
     .toggle i {
         padding: 10px 15px 0px 15px;
     }
@@ -286,5 +362,10 @@ img {
 }
 .footer {
     position: absolute;
+}
+.lab-center {
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 }
