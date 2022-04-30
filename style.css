@@ -8,7 +8,7 @@ body {
     background-color: #171916;  
     height: 100vh;
     height: 100%; 
-    overflow: auto;
+    overflow: hidden;
 }
 ul li {
     list-style: none;
@@ -171,7 +171,14 @@ img {
     
 }
 
-@media all and (max-width:991px) {
+@media all and (max-width:600px) 
+
+
+{
+
+    .footer {
+        position: absolute;
+    }
     body {
         overflow: auto;
     }
@@ -269,9 +276,3 @@ img {
 }
 }
 
-@media all and (max-width:600px) {
-.footer {
-    position: absolute;
-}
-
-}
