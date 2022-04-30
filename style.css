@@ -170,6 +170,7 @@ img {
     height: 40%;
     
 }
+
 @media all and (max-width:991px) {
     body {
         overflow: auto;
@@ -206,6 +207,12 @@ img {
     .hide {
         display: none;
     }
+    .open .o-div {
+    display: none;
+}
+.open .k-div {
+    display: none;
+}
     .menu {
         position: absolute;
         top: 0;

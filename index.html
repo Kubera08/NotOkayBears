@@ -87,9 +87,23 @@
     <script>
         let toggle = document.querySelector('.toggle');
         let body = document.querySelector('body');
-        
-        toggle.addEventListener('click', function(){
+        let odiv = document.querySelector('.o-div')
+        let kdiv = document.querySelector('.k-div')
+        toggle.addEventListener('click', function() {
             body.classList.toggle('open');
-        })</script>
+        
+        })
+
+        toggle.addEventListener('click', function(){
+            odiv.classList.toggle('hide');
+
+        })
+
+        toggle.addEventListener('click', function(){
+           kdiv.classList.toggle('hide');
+
+        })
+
+        </script>
 </body>
 </html>
