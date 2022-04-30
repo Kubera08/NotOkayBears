@@ -173,7 +173,7 @@ img {
 
 @media all and (max-width:991px) {
     body {
-        overflow: hidden;
+        overflow: auto;
     }
 
     .header {
