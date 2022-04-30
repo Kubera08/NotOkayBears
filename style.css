@@ -6,8 +6,7 @@
 body {
     font-family: Fontspring ;  
     background-color: #171916;  
-    height: 100vh;
-    overflow: hidden;
+    height: 100%;
 }
 ul li {
     list-style: none;
@@ -127,10 +126,10 @@ img {
     height: 919px;
     margin-top: -40px;
 }
-.container div {
+.container div img {
     opacity: 0.5;
 }
-.container div:hover {
+.container div img:hover {
     opacity: 1;
     transition: 1s;
 }
@@ -157,7 +156,7 @@ img {
 .footer {
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
     height:200px;
     bottom: 0;
     width: 100%;
@@ -183,10 +182,7 @@ img {
 
 
 @media all and (max-width:991px) {
-    body {
-        overflow: auto;
-    }
-
+   
     .header {
         background: transparent;
 
@@ -274,6 +270,9 @@ img {
  .container {
     position: relative;
     top: 22vh;
+}
+.container div img {
+    opacity: 1;
 }
 .logo img {
     height: 150px;
