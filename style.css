@@ -7,6 +7,7 @@ body {
     font-family: Fontspring ;  
     background-color: #171916;  
     height: 100%;
+    overflow: hidden;
 }
 ul li {
     list-style: none;
@@ -105,7 +106,7 @@ nav {
 .container {
     
     position: relative;
-    top: 15vh;
+    top: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,13 +128,8 @@ img {
     margin-top: -40px;
 }
 
-.container div img {
-    opacity: 0.5;
-}
-.container div img:hover {
-    opacity: 1;
-    transition: 0.5s;
-}
+
+
 
 .k-div {
     margin-right: -85px;
@@ -159,7 +155,7 @@ img {
 
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
     height:200px;
     bottom: 0;
     width: 100%;
@@ -177,10 +173,18 @@ img {
     align-items: flex-end;
     justify-content: flex-end;
 }
+.footer-img a {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-img a img {
+    height: 50%;
+    width: 50%;
+}
 
-.footer-img img {
-    height: 75%;
-    
+.footer-img img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 
