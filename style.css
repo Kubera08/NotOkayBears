@@ -173,7 +173,7 @@ img {
 
 @media all and (max-width:991px) {
     body {
-        overflow: auto;
+        overflow: hidden;
     }
 
     .header {
@@ -225,7 +225,9 @@ img {
         transition: transform 1s;
 
     }
-
+    .menu li {
+        border-radius: 3px;
+    }
     .menu li a {
         font-size: 2rem;
     }
