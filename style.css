@@ -7,7 +7,6 @@ body {
     font-family: Fontspring ;  
     background-color: #171916;  
     height: 100vh;
-    height: 100%; 
     overflow: hidden;
 }
 ul li {
@@ -58,10 +57,14 @@ nav {
     padding: 9px 15px;
     text-align: center;
 
+
 }
 
 .menu li:hover {
     background-color: rgb(88, 88, 88);
+    transform: scale(1.1) ;
+    transition: 0.8s;
+
 }
 .menu li a {
     color: #fff;
@@ -120,9 +123,16 @@ img {
 }
 
 .o-div {
-       margin-right: -89px;
+    margin-right: -89px;
     height: 919px;
     margin-top: -40px;
+}
+.container div {
+    opacity: 0.5;
+}
+.container div:hover {
+    opacity: 1;
+    transition: 1s;
 }
 .k-div {
     margin-right: -85px;
