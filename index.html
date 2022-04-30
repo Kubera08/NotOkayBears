@@ -89,6 +89,10 @@
         let body = document.querySelector('body');
         let odiv = document.querySelector('.o-div')
         let kdiv = document.querySelector('.k-div')
+        let footer = document.querySelector('.footer')
+
+
+
         toggle.addEventListener('click', function() {
             body.classList.toggle('open');
         
@@ -103,6 +107,12 @@
            kdiv.classList.toggle('hide');
 
         })
+
+        toggle.addEventListener('click', function(){
+           footer.classList.toggle('hide');
+
+        })
+
 
         </script>
 </body>
