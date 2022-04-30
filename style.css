@@ -8,7 +8,7 @@ body {
     background-color: #171916;  
     height: 100vh;
     height: 100%; 
-    overflow: hidden;
+    overflow: auto;
 }
 ul li {
     list-style: none;
