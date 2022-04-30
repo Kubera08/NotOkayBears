@@ -147,7 +147,7 @@ img {
 .footer {
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
     height:200px;
     bottom: 0;
     width: 100%;
@@ -272,7 +272,7 @@ img {
 @media all and (max-width:500px) {
 .footer {
 
-    position: relative;
+    position: absolute;
 
 }
 
