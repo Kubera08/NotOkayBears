@@ -65,7 +65,7 @@ nav {
 }
 .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
     width: 650px;
@@ -74,7 +74,7 @@ nav {
 }
 .menu-lab {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
     width: 650px;

@@ -31,7 +31,6 @@
 
 <li><a href="index.html"> HOME </a></li>
 <li><a href="lab.html"> THE LAB </a></li>
-<li><a href="#"> ROADMAP </a></li>
 
 </div>
 
@@ -84,7 +83,7 @@
 
             <div class="team-name"> KINGZ </div>
             <div class="team-role"> DESIGNER </div>
-            <div class="team-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, alias?</div>
+            <div class="team-description"> Designer : has already launched 2 successful collectio  </div>
          </div>
          <div class="team-member"> 
             <div class="team-pp3"> </div>
@@ -128,8 +127,21 @@
     <script>
         let toggle = document.querySelector('.toggle');
         let body = document.querySelector('body');
+        let title = document.querySelector('.team-text-container')
+        let team = document.querySelector('.team-members')
+
+
         toggle.addEventListener('click', function() {
             body.classList.toggle('open');
+        
+        })
+
+        toggle.addEventListener('click', function(){
+           title.classList.toggle('hide');
+        
+        })
+        toggle.addEventListener('click', function(){
+           team.classList.toggle('hide');
         
         })
     </script>
