@@ -99,7 +99,9 @@ nav {
     text-align: center;
     
 }
-
+.team-pp6 {
+    align-items:    ;
+}
 .menu li:hover {
     background-color: rgb(88, 88, 88);
     transform: scale(1.1) ;
